@@ -112,6 +112,18 @@ Ablation ranks `utilization` well above the other signal groups. Thermal and fre
 features are largely redundant once utilization is present, which follows from the
 generator: temperature and clock are both driven by utilization.
 
+### Sample outputs
+
+![Actual vs Predicted — RandomForest](docs/figures/actual_vs_predicted_randomforest.png)
+
+![Permutation Importance — RandomForest](docs/figures/feature_importance_randomforest.png)
+
+![Ablation Study — RandomForest](docs/figures/ablation_randomforest.png)
+
+![Actual vs Predicted — MLP](docs/figures/actual_vs_predicted_mlp.png)
+
+![Training Curve — MLP](docs/figures/training_curve_mlp.png)
+
 ## Output
 
 Each run writes `outputs/reports/report.md` with per-fold metrics, model comparison
